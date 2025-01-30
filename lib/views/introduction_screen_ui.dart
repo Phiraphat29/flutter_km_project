@@ -68,7 +68,7 @@ class _IntroductionScreenUiState extends State<IntroductionScreenUi> {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => Home01Ui(),
+                builder: (context) => Home01UI(),
               ));
         },
         scrollPhysics: ClampingScrollPhysics(),
